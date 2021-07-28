@@ -1,0 +1,199 @@
+html {
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background:#3A6351;
+    background-repeat:no-repeat;
+    /* background: -webkit-linear-gradient( to left top, blue, red);
+    background: -moz-linear-gradient( to left top, blue, red);
+    background: -ms-linear-gradient( to left top, blue, red);
+    background: -o-linear-gradient( to left top, blue, red);
+    background: linear-gradient( to left top, blue, red); */
+}
+
+body{
+    font-family: "poppins", sans-serif;
+}
+
+h2{
+    font-weight: 700;
+    color: #242323, 83%;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 14px;
+    color: rgba(121, 121, 121, 0.83);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.signup{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid; */
+    width: 976px;
+    height: 549px;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+.kotak-kiri{
+    width:50%;
+    height: 100%;
+    background-color:#F2EDD7;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    text-align: left;
+    
+    
+}
+
+.kotak-kiri .logo{
+    margin-top: 16px;
+    margin-left: 36px;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo > h2{
+    text-align: center;
+    color: #393232;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+
+
+
+
+.kotak-kiri .judul{
+    margin-left: 36px;
+}
+
+.kotak-kiri .formulir{
+    /* border: 2px solid; */
+    height: 60%;
+    width: 70%;
+    margin-left: 36px ;
+    height: auto;
+}
+
+.formulir input{
+    background-color: transparent;
+    color: #eeeeee;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid #C4C4C4 2px;
+    padding: 3px 10px;
+    width: 100%;
+    margin-top: 24px;
+    color: black;
+}
+
+.kotak-kiri .btnLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.btnLogin button{
+    background: #3A6351;
+    border-radius: 15px;
+    width: 283px;
+    height: 43px;
+    border: none;
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 14px;
+    color: white;
+}
+
+.kotak-kiri .btnSignUp{
+    margin-top: 72px;
+    margin-left: 36px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: rgba(121, 121, 121, 0.83);
+}
+
+.btnSignUp a{
+    text-decoration: none;
+    color: rgba(121, 121, 121, 0.83);
+    transition: 1s;
+}
+
+.btnSignUp a:hover{
+    color: rgba(0, 0, 0, 0.83);
+    transform: translateY(2px);
+}
+
+.kotak-kanan{
+    width: 50%;
+    height: 100%;
+    background: #393232;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+.kotak-kanan > img{
+    height: 90%;
+    width: 90%;
+}
+
+
+@media screen and (max-width: 768px){
+    .signup{
+        max-width: 600px;
+    }
+
+    .kotak-kiri{
+        width: 100%;
+        border-radius:15px;
+    }
+
+
+
+    .kotak-kanan{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 576px){
+    .signup{
+        max-width: 400px;
+    }
+
+    .kotak-kiri{
+        width: 100%;
+        border-radius:15px;
+    }
+
+    .kotak-kanan{
+        display: none;
+    }
+}
+

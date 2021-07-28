@@ -1,0 +1,158 @@
+html{
+    min-height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* background: linear-gradient(180deg, #F2EDD7 -6.97%, rgba(89, 180, 186, 0) 107.75%); */
+    background: #393232;
+    background-repeat:no-repeat;
+}
+
+body{
+    font-family: "poppins", sans-serif;
+}
+
+/* bagian navbar */
+nav{
+    height: 100%;
+    width: 330px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F2EDD7;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+nav .logo{
+    margin-left: 24px;
+    width: 70%;
+}
+
+.logo > h2{
+    text-align: center;
+    color: #393232;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+
+
+nav .isi{
+    height: auto;
+}
+
+.isi > div:not(:first-child){
+    margin-top: 18px;
+}
+
+.isi > div:first-child{
+    background-color: #E48257;
+}
+
+.isi .isi-child{
+    height: 65px;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.isi .isi-child:hover{
+    background-color: #E48257;
+}
+
+.isi-child > img{
+    margin-left: 24px;
+    margin-right: 36px;
+}
+
+nav .logout{
+    height: 65px;
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+}
+
+nav .logout:hover{
+    background-color: #E48257;
+}
+
+.logout > img{
+    margin-left: 24px;
+    margin-right: 36px;
+}
+
+
+/* bagian navbar */
+
+/* bagian profil */
+
+.profile{
+    margin-left: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 24px;
+}
+
+.profile > span{
+    color: #F2EDD7;
+}
+
+.profile > img{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 16px;
+    margin-right: 54px;
+}
+
+/* bagian profil */
+
+/* bagian main table */
+.main{
+    margin-top: 86px;
+    width: 1080px;
+    height: 320px;
+    margin-left: 370px;
+    /* background-color: white; */
+    color: #F2EDD7 ;
+}
+
+
+.main > h2{
+    text-align: center;
+    padding-top:24px;
+}
+
+
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 15%;
+    text-align: center;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-right: 0.5px solid;
+    border-left: 0.5px solid;
+}
+
+
+.card-header{
+    background-color: gray;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* bagian main table */

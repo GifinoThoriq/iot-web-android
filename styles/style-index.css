@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+}
+
+.header {
+    height: 100px;
+    background: #393232;
+    padding-left: 20px;
+    padding: 0 20px;
+    color: #F2EDD7;
+}
+
+h1{
+    margin: 20px;
+}
+
+h2 {
+    line-height: 100px;
+}
+img {
+    line-height: 100px;
+    float: left;
+    padding: 10px;
+}
+
+.logo {
+    font-family: 'Alfa Slab One', cursive;
+    line-height: 100px;
+    letter-spacing: 2px;
+    float: left;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 300;
+    color: #F2EDD7;
+    margin-left: 56px;
+}
+
+
+.menu {
+    float: right;
+    line-height: 100px;
+    padding-right: 20px;
+    margin-right: 36px;
+}
+
+.menu a {
+    color: #F2EDD7;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.content .textBox{
+    position: relative;
+    max-width: 600px;
+    margin-left:72px;
+}
+
+.content .imgBox{
+    margin-right: 42px;
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+
+}
+
+
+.imgBox > img{
+    width: 450px;
+
+}
+
+
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #3A6351;
+    clip-path: circle(400px at right);
+    z-index: -2;
+}
+
+.content .textBox > h2{
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.content .textBox > h2 span{
+    color: #E48257;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+
+.content .textBox > a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #3A6351;
+    color: #F2EDD7;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.aboutus{
+    margin-top: 24px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.aboutus-child{
+    margin-top: 24px;
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 3px 0px 14px -5px rgba(0, 0, 0, 0.25);
+    align-items: center;
+}
+
+.aboutus-child > img{
+    width: 65px;
+    height: 65px;
+    margin-top: 16px;
+}
+
+.aboutus-child > h3{
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.aboutus-child > p{
+    margin-top: 4px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contactus{
+    margin-top: 24px;
+    height: 500px;
+    position: relative;
+}
+
+.contactus > iframe{
+    width: 100%;
+    height: 500px;
+}
+
+.contactus-child{
+    position: absolute;
+    top: 80;
+    right: 42;
+    background-color: #F2EDD7;
+    color: #393232;
+    width: 500px;
+    height: 280px;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.contactus-child > .child-text{
+    height: 100px;
+    width: 240px;
+    margin-left: 16px;
+}
+
+.child-text > h2{
+    font-size: 18px;
+    font-weight: 500;
+    color: #393232;
+    
+}
+
+.child-text > p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #393232;
+    margin-top: -36px;
+}
+
+.footer{
+    margin-top: 24px;
+    height: 80px;
+    background-color: #393232;
+    color: #F2EDD7 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
