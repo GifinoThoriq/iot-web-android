@@ -1,3 +1,3 @@
 # iot-webapp
 Intregating IoT devices into web application <br />
-you can live here: https://divon.000webhostapp.com/
+you can see the website from here: https://divon.000webhostapp.com/
